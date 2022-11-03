@@ -20,3 +20,83 @@ textarea {
   width: 100px;
   height: 300px;
 }
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.bestheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+header {
+  background-color: lightcoral;
+}
+nav {
+  width: 500px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li a {
+  color: black;
+}
+
+.fa-bars {
+  font-size: 30px;
+  color: grey;
+  display: none;
+}
+/* section styles */
+
+.information {
+  font-size: 12px;
+}
+.goflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.infoblock {
+  width: 240px;
+  margin-right: 20px;
+}
+.infoblock p {
+  font-size: 12px;
+}
+.infoblock h4 {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 16px;
+}
+.infoblock h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.cardboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 260px;
+}
+.card img {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.card h3 {
+  font-size: 12px;
+}
