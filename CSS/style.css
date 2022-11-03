@@ -1,0 +1,22 @@
+input[type="submit"],
+input[type="number"] {
+  width: 200px;
+  background-color: aqua;
+  border: none;
+  border-bottom: 2px solid red;
+}
+input[type="submit"]:hover {
+  background-color: red;
+}
+input[type="text"]:focus {
+  background-color: blue;
+}
+input[type="text"] {
+  background-image: url();
+  background-position: 10px 10px;
+}
+textarea {
+  resize: none;
+  width: 100px;
+  height: 300px;
+}
